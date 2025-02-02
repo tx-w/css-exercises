@@ -65,5 +65,47 @@ button.continue {
 button.cancel {
   background: white;
   border: 1px solid #ddd;
-  color: royalblue;
+  color: royalblue; 
 }
+
+/* solution */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20;
+}
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px
+}
+
+.header {
+  display: flex;
+  font-weight: bolder;
+  font-size: larger;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+.para {
+  margin-bottom: 16px;
+  max-width: 420px;
+  margin-top: 0;
+} 
+
+.info {
+  display: flex;
+  gap:  20px;
+  align-items: space-between;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+
+
+
